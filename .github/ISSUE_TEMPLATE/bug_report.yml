@@ -1,0 +1,85 @@
+name: Bug report
+description: Something isn't working as expected.
+title: "[BUG]: "
+labels: [bug]
+
+body:
+    - type: markdown
+      attributes:
+          value: |
+              ## Tips
+                - 请尽量使用英语描述你遇到的问题，这可以让更多的人帮助到你。
+                - Please try to use English to describe the problem you encountered, which can help more people help you.
+              ------
+
+    - type: textarea
+      validations:
+          required: true
+      attributes:
+          label: Expected behavior
+          placeholder: Describe what you expected to happen.
+
+    - type: textarea
+      validations:
+          required: true
+      attributes:
+          label: Actual behavior
+          placeholder: Describe what actually happen.
+
+    - type: textarea
+      validations:
+          required: true
+      attributes:
+          label: How to reproduce?
+          description: How do you trigger this bug? Please walk us through it step by step.
+          placeholder: |
+              1. Step1
+              2. Step2
+              3. etc.
+              ...
+
+    - type: textarea
+      validations:
+          required: true
+      attributes:
+          label: Relevant log output
+          description: Please copy and paste any relevant log output.
+          placeholder: |
+              [log output]
+
+    - type: markdown
+      attributes:
+          value: |
+              ------
+
+              ## Environment & Settings
+
+    - type: textarea
+      validations:
+          required: true
+      attributes:
+          label: Your Device and OS version
+          description: |
+              Please run `adb shell getprop ro.fota.version && adb shell getprop ro.product.model` 
+              and paste the output here.
+              Or, you can check it in the device settings page. i.e. `Settings -> General -> About -> [DeviceName / Version]`
+          placeholder: adb shell getprop ro.fota.version && adb shell getprop ro.product.model
+          render: text
+
+    - type: input
+      validations:
+          required: true
+      attributes:
+          label: You Unity Project Version
+          description: |
+              Please describe your Unity version here
+          placeholder: 2022.3.52f1
+
+    - type: textarea
+      validations:
+          required: false
+      attributes:
+          label: Your `manifest.json`
+          description: Please paste the content of your project `manifest.json` here, you can find it in `Packages/manifest.json`.
+          placeholder: manifest.json
+          render: json

@@ -1,0 +1,30 @@
+name: Documentation Update
+description: Suggest improvements or report issues in documentation
+title: "[DOCS]: "
+labels: [documentation]
+
+body:
+    - type: markdown
+      attributes:
+          value: |
+              ## Tips
+                - Please be specific about which documentation needs to be updated - Provide as much detail as possible about the suggested changes
+              ------
+
+    - type: textarea
+      validations:
+          required: true
+      attributes:
+          label: Documentation Location
+          description: Which document needs to be updated? Please provide links or file paths.
+          placeholder: |
+              - URL: https://...
+              - Section: ...
+
+    - type: textarea
+      validations:
+          required: true
+      attributes:
+          label: Suggested Changes
+          description: What changes would you like to see?
+          placeholder: Describe your suggested improvements or corrections.
