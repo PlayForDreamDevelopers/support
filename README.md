@@ -30,7 +30,7 @@ In this repository, you can find a collection of resources provided by the Play 
 Here are the repositories for the Unity Mirror packages.
 
 > [!tip]
-> The details of the mirror package, and how to use mirror package, please refer to [Mirror Package](hhttps://developer.pfdm.cn/yvrdoc/unity/UserManual/DeveloperResources/PackagesMirror.html).
+> The details of the mirror package, and how to use mirror package, please refer to [Mirror Package](https://developer.pfdm.cn/yvrdoc/unity/UserManual/DeveloperResources/PackagesMirror.html)
 
 |                [Core][0001]                |                [Utilities][0002]                |                                                             [Platform][0003]                                                             |
 | :----------------------------------------: | :---------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |

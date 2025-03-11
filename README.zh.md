@@ -30,7 +30,7 @@
 以下是 Unity 镜像包的仓库。
 
 > [!tip]
-> 有关镜像包的详细信息以及如何使用镜像包，请参阅 [镜像包](https://developer.pfdm.cn/yvrdoc/unity/UserManual/DeveloperResources/PackagesMirror.html)。
+> 有关镜像包的详细信息以及如何使用镜像包，请参阅 [镜像包](https://developer.pfdm.cn/yvrdoc/unity_CN/UserManual_CN/DeveloperResources/PackagesMirror.html)。
 
 |        [核心][0001]         |    [实用工具][0002]    |                                                    [平台][0003]                                                    |
 | :-------------------------: | :--------------------: | :----------------------------------------------------------------------------------------------------------------: |
