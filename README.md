@@ -1,21 +1,5 @@
 [![zh](https://img.shields.io/badge/lang-zh-blue.svg)](./README.zh.md)
 
-<!--
-READ ME FIRST !!!!!!
-Replace the following placeholders with the actual values:
-    - {{PROJECT_REPO_URL}}: URL of the project repository
-    - {{Project Name}}: Name of the project
-    - {{DocumentationURL}}: URL of the project documentation, Use github pages with docfx if possible
-    - {{BriefDescription}}: Brief description about the project
-    - {SampleURL}: URL of the sample project, for package projects, it should be sample repository URL. If a package projects has multiple samples, then link to `Samples` header of the `About The Project` section.
-    - {BugIssueURL}: URL of the bug reporting issue template
-      - i.e.  https://github.com/PlayForDreamDevelopers/unity-template/issues/new?template=bug_report.yml
-    - {FeatureIssueURL}: URL of the feature request issue template
-      - i.e. https://github.com/PlayForDreamDevelopers/unity-template/issues/new?template=feature_request.yml
-    - {DocumentationIssueURL}: URL of the documentation issue template
-      - i.e. https://github.com/PlayForDreamDevelopers/unity-template/issues/new?template=documentation_update.yml
--->
-
 <br />
 <div align="center">
     <a href="https://github.com/PlayForDreamDevelopers/support">
@@ -24,9 +8,6 @@ Replace the following placeholders with the actual values:
     <h1 align="center"> PFDM Developer Support </h1>
     <p align="center">
         In this repository, you can find a collection of resources provided by the Play For Dream team for all developers.
-        <br />
-        <a href="{{DocumentationURL}}"><strong>View Documentation »</strong></a>
-        <br />
         <br />
         <a href="https://github.com/PlayForDreamDevelopers/support/issues/new?template=bug_report.yml">Report Bug</a>
         &middot;
@@ -41,10 +22,15 @@ Replace the following placeholders with the actual values:
 
 In this repository, you can find a collection of resources provided by the Play For Dream team for all developers.
 
-> [!tip]
+> [!note]
 > If you encounter any issues during development and are unsure which repository they should be submitted to, you are welcome to [report bug](https://github.com/PlayForDreamDevelopers/support/issues/new?template=bug_report.yml) this repository, and we will categorize them for you
 
-## Unity Mirror Packages
+## Unity Mirror Repos
+
+Here are the repositories for the Unity Mirror packages.
+
+> [!tip]
+> The details of the mirror package, and how to use mirror package, please refer to [Mirror Package](hhttps://developer.pfdm.cn/yvrdoc/unity/UserManual/DeveloperResources/PackagesMirror.html).
 
 |                [Core][0001]                |                [Utilities][0002]                |                                                             [Platform][0003]                                                             |
 | :----------------------------------------: | :---------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
@@ -53,6 +39,18 @@ In this repository, you can find a collection of resources provided by the Play 
 |     Package for _enterprise developer_     |  Package for high performance media playback.   |                                                   Package for convenient json handling                                                   |
 |        [Android Device Core][0007]         |                  [UniRx][0008]                  |                                                           [Interaction][0010]                                                            |
 | Package for high-performance JNI API calls |           Extension Package for UniRx           | Extension package for [XR Interaction Toolkit](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.1/manual/index.html) |
+
+## Unity Samples
+
+Here are the repositories for the Unity samples. For each sample project, our design goal is to provide examples of using specific functionality SDKs in the most minimal and least dependent way possible.
+
+|                        [DeviceSample][1000]                        |                                     [YPlayerSample][1001]                                      |                    [SpatialAnchorSample][1002]                    |
+| :----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: | :---------------------------------------------------------------: |
+| Learn how to get/modify device data via [Enterprise][0004] package |             Learn how to play video in different way with [YPlayer][0005] package              |              Learn how to create/load spatial anchor              |
+|                     [SpatialMeshSample][1003]                      |                                   [SceneAnchorSample][1004]                                    |                     [EyeTrackingSample][1005]                     |
+|             Learn how to load and display spatial mesh             |                             Learn how to create/load scene anchor                              | Learn how to load eye tracking data and use it for interaction UI |
+|                         [HandSample][1006]                         |                                     [PlatformSample][1007]                                     |
+|               Learn how to load hand tracking data.                | Learn how to use the platform package to perform account-related operations, i.e. entitlement. |
 
 <!-- For the Unity Mirror package -->
 
@@ -65,3 +63,14 @@ In this repository, you can find a collection of resources provided by the Play 
 [0007]: https://github.com/PlayForDreamDevelopers/com.yvr.android-device.core-mirror
 [0008]: https://github.com/PlayForDreamDevelopers/com.yvr.unirx-mirror
 [0010]: https://github.com/PlayForDreamDevelopers/com.yvr.interaction-mirror
+
+<!-- For the Unity samples -->
+
+[1000]: https://github.com/PlayForDreamDevelopers/DeviceSample-Unity
+[1001]: https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity
+[1002]: https://github.com/PlayForDreamDevelopers/SpatialAnchorSample-Unity
+[1003]: https://github.com/PlayForDreamDevelopers/SpatialMeshSample-Unity
+[1004]: https://github.com/PlayForDreamDevelopers/SceneAnchorSample-Unity
+[1005]: https://github.com/PlayForDreamDevelopers/EyeTrackingSample-Unity
+[1006]: https://github.com/PlayForDreamDevelopers/HandSample-Unity
+[1007]: https://github.com/PlayForDreamDevelopers/PlatformSample-Unity
