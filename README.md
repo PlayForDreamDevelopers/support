@@ -49,8 +49,10 @@ Here are the repositories for the Unity samples. For each sample project, our de
 | Learn how to get/modify device data via [Enterprise][0004] package |             Learn how to play video in different way with [YPlayer][0005] package              |              Learn how to create/load spatial anchor              |
 |                     [SpatialMeshSample][1003]                      |                                   [SceneAnchorSample][1004]                                    |                     [EyeTrackingSample][1005]                     |
 |             Learn how to load and display spatial mesh             |                             Learn how to create/load scene anchor                              | Learn how to load eye tracking data and use it for interaction UI |
-|                         [HandSample][1006]                         |                                     [PlatformSample][1007]                                     |
-|               Learn how to load hand tracking data.                | Learn how to use the platform package to perform account-related operations, i.e. entitlement. |
+|                         [HandSample][1006]                         |                                     [PlatformSample][1007]                                     |                     [GetStarted-Unity][1008]                       |
+|               Learn how to load hand tracking data.                | Learn how to use the platform package to perform account-related operations, i.e. entitlement. | Learn  how to use the YVR Unity SDK and the Unity XR Interaction Toolkit to create a simple VR application|
+|[CameraSample-Unity][1009]                                          |
+|Samples to demonstrate how to get hardware camera information of the Play For Dream MR Devices.|
 
 <!-- For the Unity Mirror package -->
 
@@ -74,3 +76,5 @@ Here are the repositories for the Unity samples. For each sample project, our de
 [1005]: https://github.com/PlayForDreamDevelopers/EyeTrackingSample-Unity
 [1006]: https://github.com/PlayForDreamDevelopers/HandSample-Unity
 [1007]: https://github.com/PlayForDreamDevelopers/PlatformSample-Unity
+[1008]: https://github.com/PlayForDreamDevelopers/GetStarted-Unity
+[1009]: https://github.com/PlayForDreamDevelopers/CameraSample-Unity
