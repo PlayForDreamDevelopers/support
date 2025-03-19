@@ -51,8 +51,8 @@ Here are the repositories for the Unity samples. For each sample project, our de
 |             Learn how to load and display spatial mesh             |                             Learn how to create/load scene anchor                              | Learn how to load eye tracking data and use it for interaction UI |
 |                         [HandSample][1006]                         |                                     [PlatformSample][1007]                                     |                     [GetStarted-Unity][1008]                       |
 |               Learn how to load hand tracking data.                | Learn how to use the platform package to perform account-related operations, i.e. entitlement. | Learn  how to use the YVR Unity SDK and the Unity XR Interaction Toolkit to create a simple VR application|
-|[CameraSample-Unity][1009]                                          |
-|Samples to demonstrate how to get hardware camera information of the Play For Dream MR Devices.|
+|[CameraSample-Unity][1009]                                          |[LBE Unity Sample][1010]|
+|Samples to demonstrate how to get hardware camera information of the Play For Dream MR Devices.|A collection of Unity samples for LBE.|
 
 <!-- For the Unity Mirror package -->
 
@@ -78,3 +78,4 @@ Here are the repositories for the Unity samples. For each sample project, our de
 [1007]: https://github.com/PlayForDreamDevelopers/PlatformSample-Unity
 [1008]: https://github.com/PlayForDreamDevelopers/GetStarted-Unity
 [1009]: https://github.com/PlayForDreamDevelopers/CameraSample-Unity
+[1010]: https://github.com/PlayForDreamDevelopers/LBESample-Unity

@@ -51,8 +51,8 @@
 |          了解如何加载和显示空间网格           |             了解如何创建/加载场景锚点             | 了解如何加载眼动追踪数据并将其用于交互界面 |
 |               [手部示例][1006]                |                 [平台示例][1007]                  |            [入门示例][1008]                  |
 |          了解如何加载手部追踪数据。           |  了解如何使用平台包执行账户相关操作，例如授权。   |了解如何使用YVR Unity SDK和Unity XR交互工具包创建简单的VR应用程序|
-|[相机示例][1009]|||
-|提供了几个示例，展示如何获取 Play For Dream MR 设备的硬件相机信息。|||
+|[相机示例][1009]|[LBE示例][1010]||
+|提供了几个示例，展示如何获取 Play For Dream MR 设备的硬件相机信息。|提供了一些 LBE Unity示例||
 
 <!-- For the Unity Mirror package -->
 
@@ -78,3 +78,4 @@
 [1007]: https://github.com/PlayForDreamDevelopers/PlatformSample-Unity
 [1008]: https://github.com/PlayForDreamDevelopers/GetStarted-Unity
 [1009]: https://github.com/PlayForDreamDevelopers/CameraSample-Unity
+[1010]: https://github.com/PlayForDreamDevelopers/LBESample-Unity/blob/main/README.zh.md
