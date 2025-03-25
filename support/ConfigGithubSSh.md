@@ -31,17 +31,21 @@ Open the `id_ed25519.pub` file and copy its contents to the clipboard. You will 
 ## Add the SSH Key to Your GitHub Account
 
 Log in to your GitHub account, click on your avatar in the upper right corner, and select `Settings` to enter the settings page:
+
 ![GitHub Settings](assets/Config%20Github%20SSh/2025-03-25-15-00-00.png)
 
 On the settings page, select `SSH and GPG keys` and click `New SSH key`:
+
 ![New SSH Key](assets/Config%20Github%20SSh/2025-03-25-15-01-57.png)
 
 In the `Add new SSH Key` interface, you need to fill in the `Title` and `Key`. The `Title` can be anything you like, used to identify the SSH key. In the `Key` field, paste the contents of the `id_ed25519.pub` file generated earlier, and then click `Add SSH key`.
+
 ![Add new SSH Key](assets/Config%20Github%20SSh/2025-03-25-15-13-49.png)
 
 ## Test the SSH Configuration
 
 After completing the above steps, SSH has been successfully configured. You can select any public GitHub project to test the SSH clone, such as the project `PlayForDreamDevelopers/support`. Find its SSH address and perform the clone operation:
+
 ![SSH URL](assets/Config%20Github%20SSh/2025-03-25-15-17-29.png)
 
 ```bash
