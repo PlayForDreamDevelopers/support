@@ -39,6 +39,8 @@ Here are the repositories for the Unity Mirror packages.
 |     Package for _enterprise developer_     |  Package for high performance media playback.   |                                                   Package for convenient json handling                                                   |
 |        [Android Device Core][0007]         |                  [UniRx][0008]                  |                                                           [Interaction][0010]                                                            |
 | Package for high-performance JNI API calls |           Extension Package for UniRx           | Extension package for [XR Interaction Toolkit](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.1/manual/index.html) |
+|[tool][0011]|
+|provide some convenient testing tools|
 
 ## Unity Samples
 
@@ -85,10 +87,10 @@ If the clone fails, refer to [Configuring GitHub SSH](support/ConfigGithubSSh.md
 [0004]: https://github.com/PlayForDreamDevelopers/com.yvr.enterprise-mirror
 [0005]: https://github.com/PlayForDreamDevelopers/com.yvr.player-mirror
 [0006]: https://github.com/PlayForDreamDevelopers/com.yvr.json-parser-mirror
-
-If you encounter package import errors after opening the project, you should troubleshoot the error instead of directly importing the SDK Integration package , as the package versions required by the project may be newer than those in the official SDK Integration package.
+[0007]: https://github.com/PlayForDreamDevelopers/com.yvr.android-device.core-mirror
 [0008]: https://github.com/PlayForDreamDevelopers/com.yvr.unirx-mirror
 [0010]: https://github.com/PlayForDreamDevelopers/com.yvr.interaction-mirror
+[0011]: https://github.com/PlayForDreamDevelopers/com.yvr.tools-mirror
 
 <!-- For the Unity samples -->
 
@@ -102,4 +104,4 @@ If you encounter package import errors after opening the project, you should tro
 [1007]: https://github.com/PlayForDreamDevelopers/PlatformSample-Unity
 [1008]: https://github.com/PlayForDreamDevelopers/GetStarted-Unity
 [1009]: https://github.com/PlayForDreamDevelopers/CameraSample-Unity
-[0001]: https://github.com/PlayForDreamDevelopers/com.yvr.core-mirror
+[1010]: https://github.com/PlayForDreamDevelopers/LBESample-Unity
