@@ -33,14 +33,14 @@ Here are the repositories for the Unity Mirror packages.
 > The details of the mirror package, and how to use mirror package, please refer to [Mirror Package](https://developer.pfdm.cn/yvrdoc/unity/UserManual/DeveloperResources/PackagesMirror.html)
 
 |                [Core][0001]                |                [Utilities][0002]                |                                                             [Platform][0003]                                                             |
-| :----------------------------------------: | :---------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
+|:------------------------------------------:| :---------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
 |      Package that provides XR ability      | Package that provides several utilities scripts |                                              Package that provides account platform ability                                              |
 |             [Enterprise][0004]             |                 [Player][0005]                  |                                                           [Json-parser][0006]                                                            |
 |     Package for _enterprise developer_     |  Package for high performance media playback.   |                                                   Package for convenient json handling                                                   |
 |        [Android Device Core][0007]         |                  [UniRx][0008]                  |                                                           [Interaction][0010]                                                            |
 | Package for high-performance JNI API calls |           Extension Package for UniRx           | Extension package for [XR Interaction Toolkit](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.1/manual/index.html) |
-|[tool][0011]|
-|provide some convenient testing tools|
+|                [Tool][0011]                |
+|   provide some convenient testing tools    |
 
 ## Unity Samples
 
