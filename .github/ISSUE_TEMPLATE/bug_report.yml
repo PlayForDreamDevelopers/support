@@ -40,7 +40,7 @@ body:
 
     - type: textarea
       validations:
-          required: true
+          required: false
       attributes:
           label: Relevant log output
           description: Please copy and paste any relevant log output.
@@ -68,9 +68,9 @@ body:
 
     - type: input
       validations:
-          required: true
+          required: false
       attributes:
-          label: You Unity Project Version
+          label: Your Unity Project Version, if you are developing a Unity project
           description: |
               Please describe your Unity version here
           placeholder: 2022.3.52f1
@@ -79,7 +79,7 @@ body:
       validations:
           required: false
       attributes:
-          label: Your `manifest.json`
+          label: Your `manifest.json`, if you are developing a Unity project
           description: Please paste the content of your project `manifest.json` here, you can find it in `Packages/manifest.json`.
           placeholder: manifest.json
           render: json
